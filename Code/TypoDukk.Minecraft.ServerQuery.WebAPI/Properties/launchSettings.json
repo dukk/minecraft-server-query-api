@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "TypoDukk.Minecraft.ServerQuery.WebAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://0.0.0.0:25550"
+    }
+  }
+}
