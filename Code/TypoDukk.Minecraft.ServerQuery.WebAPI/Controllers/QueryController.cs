@@ -6,6 +6,9 @@ using TypoDukk.Minecraft.ServerQuery.WebAPI.Services;
 
 namespace TypoDukk.Minecraft.ServerQuery.WebAPI.Controllers
 {
+    /// <summary>
+    /// Queries a a Minecraft server.
+    /// </summary>
     [ApiController]
     [Route("query")]
     public class QueryController : ControllerBase
@@ -19,6 +22,12 @@ namespace TypoDukk.Minecraft.ServerQuery.WebAPI.Controllers
             this.serverQueryService = serverQueryService ?? throw new ArgumentNullException(nameof(serverQueryService));
         }
 
+        /// <summary>
+        /// Queries the provided Minecraft server.
+        /// </summary>
+        /// <param name="host">Hostname or IP of the server.</param>
+        /// <param name="port">IP Port the server is running on.</param>
+        /// <returns>The results of the query.</returns>
         [HttpGet(Name = "QueryServer")]
         public async Task<QueryResponse?> Get([FromQuery] string host, [FromQuery] ushort port = 25565)
         {

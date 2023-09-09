@@ -1,0 +1,61 @@
+{
+  "NetworkQuery": {
+    "Networks": [
+      {
+        "Name": "dukk",
+        "Servers": [
+          {
+            "Name": "Proxy",
+            "Host": "10.0.0.50",
+            "Port": 25565,
+            "HideNumberOfPlayers": true,
+            "HideMaxNumberOfPlayers": true,
+            "HidePlayers": true,
+            "HideMessageOfTheDay": true,
+            "HideFavicon": true,
+            "HideServer": true,
+            "RequireOnline": true
+          },
+          {
+            "Name": "Lobby",
+            "Host": "10.0.0.50",
+            "Port": 25590,
+            "HideNumberOfPlayers": false,
+            "HideMaxNumberOfPlayers": true,
+            "HidePlayers": false,
+            "HideMessageOfTheDay": true,
+            "HideFavicon": true,
+            "HideServer": false
+          },
+          {
+            "Name": "Survival",
+            "Host": "10.0.0.51",
+            "Port": 25591,
+            "HideNumberOfPlayers": false,
+            "HideMaxNumberOfPlayers": true,
+            "HidePlayers": false,
+            "HideMessageOfTheDay": true,
+            "HideFavicon": true,
+            "HideServer": false
+          },
+          {
+            "Name": "Creative",
+            "Host": "10.0.0.52",
+            "Port": 25592,
+            "HideNumberOfPlayers": false,
+            "HideMaxNumberOfPlayers": true,
+            "HidePlayers": false,
+            "HideMessageOfTheDay": true,
+            "HideFavicon": true,
+            "HideServer": false
+          }
+        ],
+        "UsePlayerCountFromServer": "Proxy",
+        "UseMaxPlayerCountFromServer": "Proxy",
+        "UseFaviconFromServer": "Proxy",
+        "UseMotdFromServer": "Proxy",
+        "HidePlayers": true
+      }
+    ]
+  }
+}

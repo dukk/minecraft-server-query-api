@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypoDukk.Minecraft.ServerQuery.WebAPI", "Code\TypoDukk.Minecraft.ServerQuery.WebAPI\TypoDukk.Minecraft.ServerQuery.WebAPI.csproj", "{A47F1545-1B15-42C7-95F3-5247E3FB9F5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypoDukk.Minecraft.ServerQuery.WebAPI", "Code\TypoDukk.Minecraft.ServerQuery.WebAPI\TypoDukk.Minecraft.ServerQuery.WebAPI.csproj", "{A47F1545-1B15-42C7-95F3-5247E3FB9F5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1C80C29-8095-45FE-ADEE-E0FD84D077C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{5C7B6502-1EAF-4281-AE84-FC054F9436C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{46A835F4-D29D-4866-A737-56C36457DC2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A47F1545-1B15-42C7-95F3-5247E3FB9F5A} = {5C7B6502-1EAF-4281-AE84-FC054F9436C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AF9E463-4B19-40C9-92EA-6C2F899BCD34}
