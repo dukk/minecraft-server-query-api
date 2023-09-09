@@ -28,7 +28,7 @@
                             break;
                         }
 
-                        status = NetworkStatus.Partual;
+                        status = NetworkStatus.Partial;
                     }
                     else
                     {
@@ -36,8 +36,8 @@
                     }
                 }
 
-                status = (status == NetworkStatus.Partual && atleastOne)
-                    ? NetworkStatus.Partual
+                status = (status == NetworkStatus.Partial && atleastOne)
+                    ? NetworkStatus.Partial
                     : NetworkStatus.Offline;
 
                 return status;
