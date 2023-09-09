@@ -55,6 +55,41 @@
         "UseFaviconFromServer": "Proxy",
         "UseMotdFromServer": "Proxy",
         "HidePlayers": true
+      },
+      {
+        "Name": "dukk-min",
+        "Servers": [
+          {
+            "Name": "Proxy",
+            "Host": "10.0.0.50",
+            "Port": 25565,
+            "HideServer": true,
+            "RequireOnline": true
+          },
+          {
+            "Name": "Lobby",
+            "Host": "10.0.0.50",
+            "Port": 25590,
+            "HideServer": true
+          },
+          {
+            "Name": "Survival",
+            "Host": "10.0.0.51",
+            "Port": 25591,
+            "HideServer": true
+          },
+          {
+            "Name": "Creative",
+            "Host": "10.0.0.52",
+            "Port": 25592,
+            "HideServer": true
+          }
+        ],
+        "UsePlayerCountFromServer": "Proxy",
+        "UseMaxPlayerCountFromServer": "Proxy",
+        "UseFaviconFromServer": "Proxy",
+        "UseMessageOfTheDayFromServer": "Proxy",
+        "HidePlayers": false
       }
     ]
   }

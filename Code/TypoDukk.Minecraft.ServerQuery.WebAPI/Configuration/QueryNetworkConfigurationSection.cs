@@ -20,7 +20,7 @@ namespace TypoDukk.Minecraft.ServerQuery.WebAPI.Controllers
 
         public string? UsePlayersFromServer { get; set; }
 
-        public string? UseMotdFromServer { get; set; }
+        public string? UseMessageOfTheDayFromServer { get; set; }
 
         public string? UseFaviconFromServer { get; set; }
 

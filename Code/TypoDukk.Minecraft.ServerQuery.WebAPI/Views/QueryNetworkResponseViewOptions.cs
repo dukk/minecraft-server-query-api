@@ -34,7 +34,7 @@ public class QueryNetworkResponseViewOptions
             HideMaxNumberOfPlayers = configuration.HideMaxNumberOfPlayers ?? false,
             HidePlayers = configuration.HidePlayers ?? false,
             UseServersFavicon = configuration.UseFaviconFromServer,
-            UseServersMessageOfTheDay = configuration.UseMotdFromServer,
+            UseServersMessageOfTheDay = configuration.UseMessageOfTheDayFromServer,
             UseServersNumberOfPlayers = configuration.UseNumberOfPlayersFromServer,
             UseServersMaxNumberOfPlayers = configuration.UseMaxNumberOfPlayersFromServer,
             UseServersPlayers = configuration.UsePlayersFromServer,
