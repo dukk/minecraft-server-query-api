@@ -4,7 +4,7 @@
     {
         Unknown = 0,
         Online = 1,
-        Partual = 2,
+        Partial = 2,
         Offline = 3
     }
 }
