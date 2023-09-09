@@ -7,8 +7,8 @@
         public QueryNetworkResponse(string[] requiredOnlineServers)
         {
             this.Servers = new List<QueryNetworkServer>();
-            this.Timestamp = DateTime.UtcNow;
             this.requiredOnlineServers = requiredOnlineServers;
+            this.Timestamp = DateTime.UtcNow;
         }
 
         public NetworkStatus Status

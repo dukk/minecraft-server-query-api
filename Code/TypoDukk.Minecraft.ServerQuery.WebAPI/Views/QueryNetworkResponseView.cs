@@ -47,7 +47,7 @@ public class QueryNetworkResponseView
                     ? this.response.Players
                     : this.getServer(this.options.UseServersPlayers).Players;
 
-    public DateTime Timestamp { get; private set; }
+    public DateTime Timestamp => this.response.Timestamp;
 
     public IEnumerable<QueryNetworkServerView> Servers
     {
